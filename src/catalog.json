@@ -1,0 +1,768 @@
+[
+  {
+    "id": "kick-lunar",
+    "name": "Lunar Kick",
+    "category": "Kick",
+    "kit": "Lunar Kit",
+    "url": "/sounds/kick-lunar.wav"
+  },
+  {
+    "id": "clap-halo",
+    "name": "Halo Clap",
+    "category": "Clap",
+    "kit": "Lunar Kit",
+    "url": "/sounds/clap-halo.wav"
+  },
+  {
+    "id": "hat-dust",
+    "name": "Dust Hat",
+    "category": "Hi-hat",
+    "kit": "Lunar Kit",
+    "url": "/sounds/hat-dust.wav"
+  },
+  {
+    "id": "perc-orbit",
+    "name": "Orbit Perc",
+    "category": "Perc",
+    "kit": "Lunar Kit",
+    "url": "/sounds/perc-orbit.wav"
+  },
+  {
+    "id": "kick-nova",
+    "name": "Nova Kick",
+    "category": "Kick",
+    "kit": "Lunar Kit",
+    "url": "/sounds/kick-nova.wav"
+  },
+  {
+    "id": "kick-gravity",
+    "name": "Gravity Kick",
+    "category": "Kick",
+    "kit": "Lunar Kit",
+    "url": "/sounds/kick-gravity.wav"
+  },
+  {
+    "id": "kick-pulsar",
+    "name": "Pulsar Kick",
+    "category": "Kick",
+    "kit": "Lunar Kit",
+    "url": "/sounds/kick-pulsar.wav"
+  },
+  {
+    "id": "clap-rift",
+    "name": "Rift Clap",
+    "category": "Clap",
+    "kit": "Lunar Kit",
+    "url": "/sounds/clap-rift.wav"
+  },
+  {
+    "id": "hat-cloud",
+    "name": "Cloud Hat",
+    "category": "Hi-hat",
+    "kit": "Lunar Kit",
+    "url": "/sounds/hat-cloud.wav"
+  },
+  {
+    "id": "hat-cinder",
+    "name": "Cinder Hat",
+    "category": "Hi-hat",
+    "kit": "Lunar Kit",
+    "url": "/sounds/hat-cinder.wav"
+  },
+  {
+    "id": "hat-mist",
+    "name": "Mist Hat",
+    "category": "Hi-hat",
+    "kit": "Lunar Kit",
+    "url": "/sounds/hat-mist.wav"
+  },
+  {
+    "id": "perc-glass",
+    "name": "Glass Perc",
+    "category": "Perc",
+    "kit": "Lunar Kit",
+    "url": "/sounds/perc-glass.wav"
+  },
+  {
+    "id": "perc-dusk",
+    "name": "Dusk Perc",
+    "category": "Perc",
+    "kit": "Lunar Kit",
+    "url": "/sounds/perc-dusk.wav"
+  },
+  {
+    "id": "fx-prism",
+    "name": "Prism Rise",
+    "category": "FX",
+    "kit": "Lunar Kit",
+    "url": "/sounds/fx-prism.wav"
+  },
+  {
+    "id": "snare-comet",
+    "name": "Comet Snare",
+    "category": "Snare",
+    "kit": "Lunar Kit",
+    "url": "/sounds/snare-comet.wav"
+  },
+  {
+    "id": "snare-crater",
+    "name": "Crater Snare",
+    "category": "Snare",
+    "kit": "Lunar Kit",
+    "url": "/sounds/snare-crater.wav"
+  },
+  {
+    "id": "snare-silk",
+    "name": "Silk Snare",
+    "category": "Snare",
+    "kit": "Lunar Kit",
+    "url": "/sounds/snare-silk.wav"
+  },
+  {
+    "id": "808-lunar",
+    "name": "Lunar 808",
+    "category": "808",
+    "kit": "Lunar Kit",
+    "url": "/sounds/808-lunar.wav",
+    "root": 36,
+    "key": "C"
+  },
+  {
+    "id": "808-tidal",
+    "name": "Tidal 808",
+    "category": "808",
+    "kit": "Lunar Kit",
+    "url": "/sounds/808-tidal.wav",
+    "root": 38,
+    "key": "D"
+  },
+  {
+    "id": "808-crush",
+    "name": "Crush 808",
+    "category": "808",
+    "kit": "Lunar Kit",
+    "url": "/sounds/808-crush.wav",
+    "root": 36,
+    "key": "C"
+  },
+  {
+    "id": "bass-indigo",
+    "name": "Indigo Bass",
+    "category": "Basso",
+    "kit": "Lunar Kit",
+    "url": "/sounds/bass-indigo.wav",
+    "root": 36,
+    "key": "C"
+  },
+  {
+    "id": "bass-amber",
+    "name": "Amber Bass",
+    "category": "Basso",
+    "kit": "Lunar Kit",
+    "url": "/sounds/bass-amber.wav",
+    "root": 43,
+    "key": "G"
+  },
+  {
+    "id": "mel-quartz-keys",
+    "name": "Quartz Keys",
+    "category": "Melodia",
+    "kit": "Lunar Kit",
+    "url": "/sounds/mel-quartz-keys.wav",
+    "root": 60,
+    "key": "C"
+  },
+  {
+    "id": "mel-lunar-pluck",
+    "name": "Lunar Pluck",
+    "category": "Melodia",
+    "kit": "Lunar Kit",
+    "url": "/sounds/mel-lunar-pluck.wav",
+    "root": 60,
+    "key": "C"
+  },
+  {
+    "id": "mel-night-arc",
+    "name": "Night Arc Loop",
+    "category": "Melodia",
+    "kit": "Lunar Kit",
+    "url": "/sounds/mel-night-arc.wav",
+    "bpm": 96,
+    "key": "Do minore",
+    "root": 60
+  },
+  {
+    "id": "kick-heavy",
+    "name": "Heavy Kick",
+    "category": "Kick",
+    "kit": "Trap Nebula",
+    "url": "/sounds/kick-heavy.wav"
+  },
+  {
+    "id": "clap-chrome",
+    "name": "Chrome Clap",
+    "category": "Clap",
+    "kit": "Trap Nebula",
+    "url": "/sounds/clap-chrome.wav"
+  },
+  {
+    "id": "hat-tight",
+    "name": "Tight Hat",
+    "category": "Hi-hat",
+    "kit": "Trap Nebula",
+    "url": "/sounds/hat-tight.wav"
+  },
+  {
+    "id": "perc-wood",
+    "name": "Wood Perc",
+    "category": "Perc",
+    "kit": "Trap Nebula",
+    "url": "/sounds/perc-wood.wav"
+  },
+  {
+    "id": "kick-nexus",
+    "name": "Nexus Kick",
+    "category": "Kick",
+    "kit": "Trap Nebula",
+    "url": "/sounds/kick-nexus.wav"
+  },
+  {
+    "id": "kick-neon",
+    "name": "Neon Kick",
+    "category": "Kick",
+    "kit": "Trap Nebula",
+    "url": "/sounds/kick-neon.wav"
+  },
+  {
+    "id": "kick-deep",
+    "name": "Deep Kick",
+    "category": "Kick",
+    "kit": "Trap Nebula",
+    "url": "/sounds/kick-deep.wav"
+  },
+  {
+    "id": "clap-zip",
+    "name": "Zip Clap",
+    "category": "Clap",
+    "kit": "Trap Nebula",
+    "url": "/sounds/clap-zip.wav"
+  },
+  {
+    "id": "hat-satin",
+    "name": "Satin Hat",
+    "category": "Hi-hat",
+    "kit": "Trap Nebula",
+    "url": "/sounds/hat-satin.wav"
+  },
+  {
+    "id": "hat-air",
+    "name": "Air Hat",
+    "category": "Hi-hat",
+    "kit": "Trap Nebula",
+    "url": "/sounds/hat-air.wav"
+  },
+  {
+    "id": "hat-fizz",
+    "name": "Fizz Hat",
+    "category": "Hi-hat",
+    "kit": "Trap Nebula",
+    "url": "/sounds/hat-fizz.wav"
+  },
+  {
+    "id": "perc-marble",
+    "name": "Marble Perc",
+    "category": "Perc",
+    "kit": "Trap Nebula",
+    "url": "/sounds/perc-marble.wav"
+  },
+  {
+    "id": "perc-click",
+    "name": "Click Perc",
+    "category": "Perc",
+    "kit": "Trap Nebula",
+    "url": "/sounds/perc-click.wav"
+  },
+  {
+    "id": "fx-pulse",
+    "name": "Pulse Rise",
+    "category": "FX",
+    "kit": "Trap Nebula",
+    "url": "/sounds/fx-pulse.wav"
+  },
+  {
+    "id": "snare-scatter",
+    "name": "Scatter Snare",
+    "category": "Snare",
+    "kit": "Trap Nebula",
+    "url": "/sounds/snare-scatter.wav"
+  },
+  {
+    "id": "snare-steel",
+    "name": "Steel Snare",
+    "category": "Snare",
+    "kit": "Trap Nebula",
+    "url": "/sounds/snare-steel.wav"
+  },
+  {
+    "id": "snare-snap",
+    "name": "Snap Snare",
+    "category": "Snare",
+    "kit": "Trap Nebula",
+    "url": "/sounds/snare-snap.wav"
+  },
+  {
+    "id": "808-nebula",
+    "name": "Nebula 808",
+    "category": "808",
+    "kit": "Trap Nebula",
+    "url": "/sounds/808-nebula.wav",
+    "root": 29,
+    "key": "F"
+  },
+  {
+    "id": "808-swell",
+    "name": "Swell 808",
+    "category": "808",
+    "kit": "Trap Nebula",
+    "url": "/sounds/808-swell.wav",
+    "root": 31,
+    "key": "G"
+  },
+  {
+    "id": "808-drive",
+    "name": "Drive 808",
+    "category": "808",
+    "kit": "Trap Nebula",
+    "url": "/sounds/808-drive.wav",
+    "root": 29,
+    "key": "F"
+  },
+  {
+    "id": "bass-velvet",
+    "name": "Velvet Bass",
+    "category": "Basso",
+    "kit": "Trap Nebula",
+    "url": "/sounds/bass-velvet.wav",
+    "root": 41,
+    "key": "F"
+  },
+  {
+    "id": "bass-subtle",
+    "name": "Subtle Bass",
+    "category": "Basso",
+    "kit": "Trap Nebula",
+    "url": "/sounds/bass-subtle.wav",
+    "root": 48,
+    "key": "C"
+  },
+  {
+    "id": "mel-ice-bells",
+    "name": "Ice Bells",
+    "category": "Melodia",
+    "kit": "Trap Nebula",
+    "url": "/sounds/mel-ice-bells.wav",
+    "root": 65,
+    "key": "F"
+  },
+  {
+    "id": "mel-neon-reed",
+    "name": "Neon Reed",
+    "category": "Melodia",
+    "kit": "Trap Nebula",
+    "url": "/sounds/mel-neon-reed.wav",
+    "root": 65,
+    "key": "F"
+  },
+  {
+    "id": "mel-blue-orbit",
+    "name": "Blue Orbit",
+    "category": "Melodia",
+    "kit": "Trap Nebula",
+    "url": "/sounds/mel-blue-orbit.wav",
+    "root": 65,
+    "key": "F"
+  },
+  {
+    "id": "kick-grain",
+    "name": "Grain Kick",
+    "category": "Kick",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/kick-grain.wav"
+  },
+  {
+    "id": "clap-eclipse",
+    "name": "Eclipse Clap",
+    "category": "Clap",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/clap-eclipse.wav"
+  },
+  {
+    "id": "hat-needle",
+    "name": "Needle Hat",
+    "category": "Hi-hat",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/hat-needle.wav"
+  },
+  {
+    "id": "perc-rim",
+    "name": "Rim Perc",
+    "category": "Perc",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/perc-rim.wav"
+  },
+  {
+    "id": "kick-forge",
+    "name": "Forge Kick",
+    "category": "Kick",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/kick-forge.wav"
+  },
+  {
+    "id": "kick-grav",
+    "name": "Grav Kick",
+    "category": "Kick",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/kick-grav.wav"
+  },
+  {
+    "id": "kick-flint",
+    "name": "Flint Kick",
+    "category": "Kick",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/kick-flint.wav"
+  },
+  {
+    "id": "clap-grit",
+    "name": "Grit Clap",
+    "category": "Clap",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/clap-grit.wav"
+  },
+  {
+    "id": "hat-metal",
+    "name": "Metal Hat",
+    "category": "Hi-hat",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/hat-metal.wav"
+  },
+  {
+    "id": "hat-hush",
+    "name": "Hush Hat",
+    "category": "Hi-hat",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/hat-hush.wav"
+  },
+  {
+    "id": "hat-wash",
+    "name": "Wash Hat",
+    "category": "Hi-hat",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/hat-wash.wav"
+  },
+  {
+    "id": "perc-bolt",
+    "name": "Bolt Perc",
+    "category": "Perc",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/perc-bolt.wav"
+  },
+  {
+    "id": "perc-tick",
+    "name": "Tick Perc",
+    "category": "Perc",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/perc-tick.wav"
+  },
+  {
+    "id": "fx-ghost",
+    "name": "Ghost Rise",
+    "category": "FX",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/fx-ghost.wav"
+  },
+  {
+    "id": "snare-frost",
+    "name": "Frost Snare",
+    "category": "Snare",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/snare-frost.wav"
+  },
+  {
+    "id": "snare-shard",
+    "name": "Shard Snare",
+    "category": "Snare",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/snare-shard.wav"
+  },
+  {
+    "id": "snare-spark",
+    "name": "Spark Snare",
+    "category": "Snare",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/snare-spark.wav"
+  },
+  {
+    "id": "808-eclipse",
+    "name": "Eclipse 808",
+    "category": "808",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/808-eclipse.wav",
+    "root": 31,
+    "key": "G"
+  },
+  {
+    "id": "808-glide",
+    "name": "Glide 808",
+    "category": "808",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/808-glide.wav",
+    "root": 33,
+    "key": "A"
+  },
+  {
+    "id": "808-rumble",
+    "name": "Rumble 808",
+    "category": "808",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/808-rumble.wav",
+    "root": 31,
+    "key": "G"
+  },
+  {
+    "id": "bass-iron",
+    "name": "Iron Bass",
+    "category": "Basso",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/bass-iron.wav",
+    "root": 38,
+    "key": "D"
+  },
+  {
+    "id": "bass-night",
+    "name": "Night Bass",
+    "category": "Basso",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/bass-night.wav",
+    "root": 45,
+    "key": "A"
+  },
+  {
+    "id": "mel-cold-keys",
+    "name": "Cold Keys",
+    "category": "Melodia",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/mel-cold-keys.wav",
+    "root": 62,
+    "key": "D"
+  },
+  {
+    "id": "mel-frost-pluck",
+    "name": "Frost Pluck",
+    "category": "Melodia",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/mel-frost-pluck.wav",
+    "root": 62,
+    "key": "D"
+  },
+  {
+    "id": "mel-dark-tide",
+    "name": "Dark Tide",
+    "category": "Melodia",
+    "kit": "Drill Eclipse",
+    "url": "/sounds/mel-dark-tide.wav",
+    "root": 62,
+    "key": "D"
+  },
+  {
+    "id": "kick-velour",
+    "name": "Velour Kick",
+    "category": "Kick",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/kick-velour.wav"
+  },
+  {
+    "id": "clap-pocket",
+    "name": "Pocket Clap",
+    "category": "Clap",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/clap-pocket.wav"
+  },
+  {
+    "id": "hat-smoke",
+    "name": "Smoke Hat",
+    "category": "Hi-hat",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/hat-smoke.wav"
+  },
+  {
+    "id": "perc-knock",
+    "name": "Knock Perc",
+    "category": "Perc",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/perc-knock.wav"
+  },
+  {
+    "id": "kick-thud",
+    "name": "Thud Kick",
+    "category": "Kick",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/kick-thud.wav"
+  },
+  {
+    "id": "kick-basement",
+    "name": "Basement Kick",
+    "category": "Kick",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/kick-basement.wav"
+  },
+  {
+    "id": "kick-vinyl",
+    "name": "Vinyl Kick",
+    "category": "Kick",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/kick-vinyl.wav"
+  },
+  {
+    "id": "clap-room",
+    "name": "Room Clap",
+    "category": "Clap",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/clap-room.wav"
+  },
+  {
+    "id": "hat-brush",
+    "name": "Brush Hat",
+    "category": "Hi-hat",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/hat-brush.wav"
+  },
+  {
+    "id": "hat-loft",
+    "name": "Loft Hat",
+    "category": "Hi-hat",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/hat-loft.wav"
+  },
+  {
+    "id": "hat-open",
+    "name": "Open Hat",
+    "category": "Hi-hat",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/hat-open.wav"
+  },
+  {
+    "id": "perc-stick",
+    "name": "Stick Perc",
+    "category": "Perc",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/perc-stick.wav"
+  },
+  {
+    "id": "perc-cobalt",
+    "name": "Cobalt Perc",
+    "category": "Perc",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/perc-cobalt.wav"
+  },
+  {
+    "id": "fx-acorn",
+    "name": "Acorn Rise",
+    "category": "FX",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/fx-acorn.wav"
+  },
+  {
+    "id": "snare-tape",
+    "name": "Tape Snare",
+    "category": "Snare",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/snare-tape.wav"
+  },
+  {
+    "id": "snare-honey",
+    "name": "Honey Snare",
+    "category": "Snare",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/snare-honey.wav"
+  },
+  {
+    "id": "snare-dry",
+    "name": "Dry Snare",
+    "category": "Snare",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/snare-dry.wav"
+  },
+  {
+    "id": "808-atlas",
+    "name": "Atlas 808",
+    "category": "808",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/808-atlas.wav",
+    "root": 33,
+    "key": "A"
+  },
+  {
+    "id": "808-oak",
+    "name": "Oak 808",
+    "category": "808",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/808-oak.wav",
+    "root": 35,
+    "key": "B"
+  },
+  {
+    "id": "808-round",
+    "name": "Round 808",
+    "category": "808",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/808-round.wav",
+    "root": 33,
+    "key": "A"
+  },
+  {
+    "id": "bass-upright",
+    "name": "Upright Bass",
+    "category": "Basso",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/bass-upright.wav",
+    "root": 33,
+    "key": "A"
+  },
+  {
+    "id": "bass-wool",
+    "name": "Wool Bass",
+    "category": "Basso",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/bass-wool.wav",
+    "root": 40,
+    "key": "E"
+  },
+  {
+    "id": "mel-dust-keys",
+    "name": "Dust Keys",
+    "category": "Melodia",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/mel-dust-keys.wav",
+    "root": 57,
+    "key": "A"
+  },
+  {
+    "id": "mel-amber-tines",
+    "name": "Amber Tines",
+    "category": "Melodia",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/mel-amber-tines.wav",
+    "root": 57,
+    "key": "A"
+  },
+  {
+    "id": "mel-late-train",
+    "name": "Late Train Loop",
+    "category": "Melodia",
+    "kit": "Boom Bap Atlas",
+    "url": "/sounds/mel-late-train.wav",
+    "bpm": 88,
+    "key": "La minore",
+    "root": 57
+  }
+]
