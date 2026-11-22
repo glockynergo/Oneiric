@@ -1,69 +1,68 @@
-import React, { useEffect, useState, useRef, type ReactNode } from 'react'
-import { createRoot } from 'react-dom/client'
 import {
-  Moon,
   AudioWaveform,
-  Play,
-  Pause,
-  Square,
-  Repeat2,
-  Music2,
-  Grid2X2,
-  AudioLines,
-  SlidersHorizontal,
-  Undo2,
-  Redo2,
-  Save,
+  ChevronDown,
   Download,
   FolderOpen,
-  ChevronDown,
-  Volume2,
-  HardDrive,
-  PanelLeft,
-  Settings2,
-  PenLine,
-  Sparkles,
+  Grid2X2,
+  Headphones,
   Keyboard,
   Layers,
   LayoutList,
-  ChevronRight,
-  Check,
   Timer as Metronome,
-  Clock3,
-  CircleHelp,
-  FileMusic,
-  Headphones,
+  Moon,
+  Music2,
+  PanelLeft,
+  Pause,
+  PenLine,
+  Play,
+  Redo2,
+  Repeat2,
+  Save,
+  Settings2,
+  SlidersHorizontal,
+  Square,
+  Undo2,
 } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
+import { createRoot } from 'react-dom/client'
+import { engine, renderMix } from './audio'
 import catalog from './catalog.json'
+import { Drums, Inspector } from './Drums'
+import {
+  autosave,
+  download,
+  importWave,
+  openProject,
+  recovery,
+  serialize,
+  waveFile,
+} from './files'
+import Library from './Library'
+import Mixer from './Mixer'
 import {
   BAR,
-  STEP,
   PPQ,
+  STEP,
+  clamp,
   createProject,
   num,
   songLength,
-  clamp,
+  type Mode,
   type Project,
   type Sound,
-  type Mode,
 } from './model'
-import { engine, bank, renderMix } from './audio'
-import {
-  serialize,
-  openProject,
-  download,
-  autosave,
-  recovery,
-  importWave,
-  waveFile,
-} from './files'
-import { type Studio, IconButton, Menu, Modal, Range } from './ui'
-import Library from './Library'
-import { Drums, Inspector } from './Drums'
+import Piano from './Piano'
 import './style.css'
+import Timeline from './Timeline'
+import { IconButton, Menu, Modal, Range, type Studio } from './ui'
 const kit: Sound[] = catalog
 type Tab = 'Step Sequencer' | 'Piano Roll' | 'Timeline' | 'Mixer'
-const tabs = [{ name: 'Step Sequencer' as Tab, Icon: Grid2X2 }]
+const tabs = [
+  { name: 'Step Sequencer' as Tab, Icon: Grid2X2 },
+  { name: 'Piano Roll' as Tab, Icon: Music2 },
+  { name: 'Timeline' as Tab, Icon: LayoutList },
+  { name: 'Mixer' as Tab, Icon: SlidersHorizontal },
+]
 function App() {
   const [p, setP] = useState(() => createProject(kit, true)),
     [initial, setInitial] = useState(p),
@@ -536,6 +535,18 @@ function App() {
               </button>
             </div>
           </div>
+          {mode === 'song' && tab !== 'Timeline' && (
+            <div className="song-arrangement">
+              <Timeline
+                s={studio}
+                region={region}
+                setRegion={(v) => {
+                  setRegion(v)
+                  if (v) setLoop(true)
+                }}
+              />
+            </div>
+          )}
           <nav className="workspace-tabs" aria-label="Editor">
             {!lib && (
               <IconButton label="Mostra libreria" onClick={() => setLib(true)}>
@@ -555,6 +566,18 @@ function App() {
             <span />
           </nav>
           {tab === 'Step Sequencer' && <Drums s={studio} />}
+          {tab === 'Piano Roll' && <Piano s={studio} />}
+          {tab === 'Timeline' && (
+            <Timeline
+              s={studio}
+              region={region}
+              setRegion={(v) => {
+                setRegion(v)
+                if (v) setLoop(true)
+              }}
+            />
+          )}
+          {tab === 'Mixer' && <Mixer s={studio} />}
           {tab !== 'Mixer' && <Inspector s={studio} />}
         </main>
       </div>

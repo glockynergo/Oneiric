@@ -137,14 +137,30 @@ class Graph {
       b.input.gain.value = m.mute || (solo && !m.solo) ? 0 : m.volume
       b.pan.pan.value = m.pan
     }
+    const ids = new Set<string>()
     const cs = p.channels.some((c) => c.solo),
       ts = p.tracks.some((t) => t.solo)
-    for (const c of p.channels) set(this.bus(c.id), c, cs)
+    for (const c of p.channels) {
+      ids.add(c.id)
+      set(this.bus(c.id), c, cs)
+    }
     for (const t of p.tracks) {
+      ids.add(t.id)
       const tr = this.bus(t.id)
       set(tr, t, ts)
-      for (const c of p.channels) set(this.bus(t.id + '/' + c.id, tr.input), c, cs)
+      for (const c of p.channels) {
+        const id = t.id + '/' + c.id
+        ids.add(id)
+        set(this.bus(id, tr.input), c, cs)
+      }
     }
+    for (const [id, b] of this.buses)
+      if (!ids.has(id)) {
+        b.input.disconnect()
+        b.pan.disconnect()
+        b.meter.disconnect()
+        this.buses.delete(id)
+      }
   }
   voice(h: Hit, when: number, skip = 0, limit = Infinity) {
     const b = bank.buffers.get(h.sample),

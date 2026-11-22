@@ -1,0 +1,5 @@
+{
+  "name": "oneiric-verifiche", "private": true, "type": "module",
+  "scripts": {"test":"node verifica-audio.mjs"},
+  "dependencies": {"node-web-audio-api": "2.2.0", "esbuild": "0.25.12"}
+}

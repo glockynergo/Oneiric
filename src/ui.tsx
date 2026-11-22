@@ -1,19 +1,19 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react'
 import {
   AudioLines,
+  Check,
   Disc3,
   Drum,
-  Waves,
-  Triangle,
+  Menu as MenuIcon,
+  MoreHorizontal,
   Music2,
   Sparkles,
-  Menu as MenuIcon,
-  Check,
-  MoreHorizontal,
+  Triangle,
+  Waves,
   X,
 } from 'lucide-react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { bank, engine } from './audio'
-import { type Sound, type Project, type Channel, type Pattern, type Mode } from './model'
+import { type Channel, type Mode, type Pattern, type Project, type Sound } from './model'
 export type Studio = {
   p: Project
   edit: (fn: (p: Project) => void) => void
@@ -314,4 +314,4 @@ export function Range({
     </label>
   )
 }
-export { MenuIcon, Check }
+export { Check, MenuIcon }
